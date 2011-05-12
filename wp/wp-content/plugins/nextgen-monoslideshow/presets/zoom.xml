@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration startSlideshowOnAlbumSelect="true" >
+		<caption backgroundRoundness="0" backgroundType="fitCompleteText" displayMode="onHover" margin="0,0,0,0" padding="5,0,5,5" position="topCenter" width="100%" >
+			<title size="16" />
+			<description size="11" />
+			<shadow/>
+			<transition direction="topToBottom" time="0.2" type="moveIn" />
+		</caption>
+		<navigation backgroundAlpha="0" backgroundOverlayAlpha="0.85" margin="40,40,40,40" padding="0,0,0,0" strokeWidth="0" >
+			<albums backgroundRoundness="0" height="100" imageBackgroundAlpha="1" imageRoundness="0" padding="0,0,0,0" width="100" >
+				<caption type="none" >
+					<title/>
+					<description/>
+				</caption>
+				<shadow angle="90" distance="2" sizeX="8" sizeY="8" />
+				<transition type="greyscale" >
+					<shadow alpha="0" angle="90" distance="4" />
+				</transition>
+			</albums>
+			<items height="60" imageRoundness="0" width="60" >
+				<shadow angle="90" distance="2" sizeX="8" sizeY="8" />
+				<transition type="greyscale" scale="1" >
+					<shadow alpha="0" angle="90" distance="4" />
+				</transition>
+			</items>
+			<shadow angle="90" />
+			<caption type="none" >
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator indicatorType="square" />
+		</navigation>
+		<reflection/>
+		<controller appearTime="0.2" backgroundRoundness="0" iconColorOver="#ff0000" startHidden="true" strokeWidth="0" strokeType="square" >
+			<transition direction="topToBottom" />
+			<scrubBar progressColor="#ff0000" />
+			<shadow/>
+		</controller>
+		<mark position="topLeft" >
+			<shadow/>
+		</mark>
+		<progress>
+			<shadow/>
+		</progress>
+		<transition kenBurnsMode="randomZoomOut" kenBurnsStrength="0.25" strength="0.5" time="1" type="zoomOut" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

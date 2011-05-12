@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration delay="4" startWithAlbumID="insects" >
+		<caption backgroundAlpha="0.65" backgroundRoundness="5" margin="5,10,5,10" padding="5,3,5,3" position="topRight" textAlign="right" >
+			<title color="#fa9e00" font="Georgia" size="18" />
+			<description color="#ffffff" font="Georgia" size="11" style="italic" />
+			<shadow/>
+			<transition direction="rightToLeft" time="0.25" delayOut="1.5" />
+		</caption>
+		<navigation backgroundAlpha="0.65" backgroundOverlayAlpha="0.75" backgroundRoundness="10" padding="15,15,15,15" strokeWidth="0" >
+			<albums height="35" width="35" >
+				<caption height="35" width="250" >
+					<title color="#fa9e00" font="Georgia" />
+					<description color="#ffffff" font="Georgia" size="11" style="italic" />
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title color="#fa9e00" font="Georgia" />
+				<description color="#ffffff" font="Georgia" size="11" style="italic" />
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller backgroundAlpha="0.65" backgroundRoundness="10" iconColorDisable="#999999" iconColorDown="#ffffff" iconColorOver="#fa9e00" iconColorUp="#ffffff" iconHeight="12" iconWidth="12" iconSpacing="4" margin="10,10,10,10" padding="5,5,5,5" position="bottomRight" strokeColor="#ffffff" strokeWidth="0" >
+			<transition/>
+			<scrubBar backgroundColor="#999999" loadingColor="#ffffff" progressColor="#fa9e00" />
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress type="none" >
+			<shadow/>
+		</progress>
+		<transition kenBurnsMode="3DBackwards" kenBurnsStrength="0.5" kenBurnsTime="8" size="0.65" time="1.5" type="wipe" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation iconHeight="12" iconMode="vertical" iconWidth="12" margin="10,10,10,10" position="leftCenter" type="normal" >
+			<items columns="2" rows="0" >
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

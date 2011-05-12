@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration delay="4" startWithAlbumID="insects" >
+		<caption backgroundType="fitCompleteText" padding="5,2,5,5" position="bottomLeft" >
+			<title font="Trebuchet MS" size="11" weight="bold" />
+			<description color="#14cee3" font="Trebuchet MS" size="11" />
+			<shadow/>
+			<transition/>
+		</caption>
+		<navigation>
+			<albums>
+				<caption>
+					<title/>
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller autoHide="false" backgroundRoundness="10" iconColorOver="#14cee3" margin="10,10,10,10" position="bottomRight" showNavigationButton="false" showNextButton="false" showPreviousButton="false" showScrubBar="false" strokeWidth="0" >
+			<transition/>
+			<scrubBar/>
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress position="topRight" strokeWidth="0" >
+			<shadow/>
+		</progress>
+		<transition easing="easeOut" kenBurnsMode="randomPan" strength="0.5" type="shatter" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

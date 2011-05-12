@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration>
+		<caption backgroundRoundness="16" padding="8,8,8,8" position="topCenter" textAlign="center" >
+			<title size="18" />
+			<description/>
+			<shadow/>
+			<transition/>
+		</caption>
+		<navigation strokeWidth="0" >
+			<albums backgroundRoundness="16" height="75" imageRoundness="16" padding="0,0,0,0" width="75" >
+				<caption type="none" >
+					<title/>
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items height="60" imageRoundness="16" width="60" >
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption type="none" >
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller strokeWidth="0" >
+			<transition/>
+			<scrubBar/>
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress>
+			<shadow/>
+		</progress>
+		<transition performOutro="true" time="1" type="iris" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

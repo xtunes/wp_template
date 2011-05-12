@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration delay="4" randomize="true" startWithAlbumID="insects" >
+		<caption backgroundAlpha="0" backgroundType="fitCompleteText" margin="10,10,10,5" padding="0,0,0,0" position="bottomCenter" width="100%" >
+			<title color="#ffffff" font="Arial Black" size="24" />
+			<description color="#ffffff" font="Times New Roman, Times" size="11" style="italic" />
+			<shadow/>
+			<transition/>
+		</caption>
+		<navigation backgroundRoundness="0" strokeWidth="0" >
+			<albums backgroundRoundness="0" imageRoundness="0" >
+				<caption backgroundRoundness="0" width="160" >
+					<title color="#ffffff" font="Arial Black" size="14" />
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items imageRoundness="0" >
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title color="#ffffff" font="Arial Black" size="14" />
+				<description color="#ffffff" />
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection alpha="0.25" height="55" />
+		<controller autoHide="false" backgroundAlpha="0" margin="5,5,10,20" padding="0,0,0,0" position="bottomRight" strokeWidth="0" >
+			<transition/>
+			<scrubBar/>
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress type="none" >
+			<shadow/>
+		</progress>
+		<transition strength="0.35" time="1" type="melt" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

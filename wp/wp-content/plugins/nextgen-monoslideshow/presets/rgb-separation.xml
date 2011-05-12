@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration>
+		<caption backgroundAlpha="0" backgroundRoundness="16" padding="0,0,0,0" position="topCenter" textAlign="center" >
+			<title color="#ffffff" font="Trebuchet MS" size="20" />
+			<description type="none" />
+			<shadow/>
+			<transition direction="topToBottom" time="1" type="moveIn" />
+		</caption>
+		<navigation backgroundAlpha="0" backgroundOverlayAlpha="0.85" strokeWidth="0" >
+			<albums backgroundRoundness="16" height="75" imageRoundness="16" padding="0,0,0,0" width="75" >
+				<caption type="none" >
+					<title/>
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items height="60" imageRoundness="16" width="60" >
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption type="none" >
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator color="#666666" colorActive="#ffffff" />
+		</navigation>
+		<reflection/>
+		<controller backgroundAlpha="1" backgroundColor="#ffffff" backgroundRoundness="16" disappearMode="fade" iconColorDisable="#666666" iconColorDown="#666666" iconColorOver="#0057c9" iconColorUp="#666666" iconHeight="15" iconWidth="15" strokeWidth="0" >
+			<transition direction="leftToRight" time="1" />
+			<scrubBar backgroundColor="#666666" loadingColor="#000000" progressColor="#0057c9" />
+			<shadow angle="90" />
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress>
+			<shadow/>
+		</progress>
+		<transition kenBurnsMode="randomPan" kenBurnsStrength="0.2" size="1" strength="0.5" time="2" type="RGBBlur" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

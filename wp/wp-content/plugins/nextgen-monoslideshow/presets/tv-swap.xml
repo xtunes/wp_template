@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration delay="4" viewport="10,10,10,10,offset" viewportRoundness="40" >
+		<caption backgroundType="fitCompleteText" margin="25,25,80,25" padding="5,2,5,5" position="bottomLeft" width="100%" >
+			<title size="14" />
+			<description size="10" />
+			<shadow/>
+			<transition direction="bottomToTop" time="1" type="moveIn" />
+		</caption>
+		<navigation>
+			<albums>
+				<caption>
+					<title/>
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller autoHide="false" backgroundRoundness="10" iconHeight="20" iconWidth="20" iconSpacing="0" margin="25,25,25,25" position="bottomRight" showNavigationButton="false" showNextButton="false" showPreviousButton="false" showScrubBar="false" strokeWidth="0" >
+			<transition/>
+			<scrubBar/>
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress position="topRight" >
+			<shadow/>
+		</progress>
+		<transition direction="topToBottom" time="1.5" type="swap" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration backgroundColor="#1a1a1a" delay="4" viewport="0,50,0,50,offset" >
+		<caption backgroundAlpha="0" backgroundRoundness="0" margin="0,4,0,0" padding="0,0,0,0" position="topCenter" textAlign="center" >
+			<title color="#028dde" size="20" />
+			<description color="#ffffff" size="10" />
+			<shadow sizeX="8" sizeY="8" />
+			<transition/>
+		</caption>
+		<navigation>
+			<albums backgroundColor="#01508c" imageBackgroundColor="#000000" strokeColor="#ffffff" strokeWidth="2" >
+				<caption width="140" >
+					<title color="#ffffff" size="14" weight="bold" />
+					<description color="#ffffff" />
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items strokeColor="#ffffff" >
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller autoHide="false" backgroundAlpha="1" backgroundColor="#1a1a1a" backgroundRoundness="20" iconColorDisable="#999999" iconColorDown="#ffffff" iconColorOver="#028dde" iconColorUp="#ffffff" iconHeight="15" iconWidth="15" iconSpacing="5" margin="8,8,8,8" padding="8,8,8,8" strokeColor="#ffffff" >
+			<transition/>
+			<scrubBar backgroundColor="#999999" loadingColor="#ffffff" progressColor="#028dde" />
+			<shadow sizeX="8" sizeY="8" />
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress margin="10,10,10,10" progressColor="#ffffff" radius="10" strokeColor="#ffffff" >
+			<shadow/>
+		</progress>
+		<transition kenBurnsMode="randomZoomOut" kenBurnsStrength="0.1" size="1" strength="0.15" type="selfMelt" />
+		<shadow alpha="1" sizeX="64" sizeY="64" />
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration backgroundColor="#ffffff" delay="4" randomize="true" startWithAlbumID="insects" >
+		<caption displayMode="never" >
+			<title/>
+			<description/>
+			<shadow/>
+			<transition/>
+		</caption>
+		<navigation>
+			<albums>
+				<caption>
+					<title/>
+					<description/>
+				</caption>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</albums>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+			<caption>
+				<title/>
+				<description/>
+			</caption>
+			<pageIndicator/>
+		</navigation>
+		<reflection/>
+		<controller type="none" >
+			<transition/>
+			<scrubBar/>
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress type="none" >
+			<shadow/>
+		</progress>
+		<transition kenBurnsMode="randomZoomOut" kenBurnsStrength="0.25" performOutro="true" size="0.2" strength="1" time="0.75" type="focusFade" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<album>
+	<configuration backgroundColor="#ffffff" delay="4" >
+		<caption backgroundAlpha="0" backgroundColor="#ffffff" backgroundType="fitCompleteText" margin="10,10,10,15" padding="0,0,0,0" position="topCenter" strokeColor="#ffffff" textAlign="center" >
+			<title color="#ffffff" font="Georgia" size="24" style="italic" weight="bold" />
+			<description color="#ffffff" weight="bold" />
+			<shadow alpha="0.25" angle="0" distance="0.1" sizeX="4" sizeY="4" />
+			<transition direction="topToBottom" type="moveIn" />
+		</caption>
+		<navigation backgroundAlpha="1" backgroundColor="#ffffff" backgroundOverlayColor="#ffffff" backgroundRoundness="0" margin="40,40,40,80" padding="15,15,15,15" strokeColor="#666666" strokeWidth="0" strokeType="square" >
+			<albums backgroundColor="#ffffff" backgroundRoundness="0" height="70" horizontalSpacing="5" imageBackgroundColor="#ffffff" imageRoundness="0" strokeColor="#ffffff" strokeWidth="5" strokeType="square" verticalSpacing="5" width="70" >
+				<caption strokeType="square" width="140" >
+					<title color="#666666" font="Georgia" size="14" style="italic" weight="bold" />
+					<description color="#999999" weight="bold" />
+				</caption>
+				<shadow alpha="0.5" distance="2" sizeX="6" sizeY="6" strength="1.2" />
+				<transition distanceY="-5" highlightStrength="0" >
+					<shadow distance="2" sizeX="12" sizeY="12" strength="1.2" />
+				</transition>
+			</albums>
+			<items height="55" horizontalSpacing="5" imageBackgroundColor="#ffffff" imageRoundness="0" strokeColor="#ffffff" strokeWidth="5" strokeType="square" verticalSpacing="5" width="55" >
+				<shadow alpha="0.5" distance="2" sizeX="6" sizeY="6" strength="1.2" />
+				<transition distanceY="-5" highlightStrength="0.2" scale="1" >
+					<shadow distance="2" sizeX="12" sizeY="12" strength="1.2" />
+				</transition>
+			</items>
+			<shadow distance="8" sizeX="24" sizeY="24" />
+			<caption backgroundColor="#ffffff" backgroundRoundness="0" displayFullTitles="true" position="center" strokeColor="#ffffff" textAlign="center" >
+				<title color="#666666" font="Georgia" size="20" style="italic" weight="bold" />
+				<description color="#999999" weight="bold" />
+			</caption>
+			<pageIndicator color="#aaaaaa" colorActive="#000000" />
+		</navigation>
+		<reflection/>
+		<controller backgroundAlpha="1" backgroundColor="#ffffff" backgroundRoundness="0" iconColorDisable="#aaaaaa" iconColorDown="#666666" iconColorOver="#000000" iconColorUp="#666666" iconHeight="12" iconWidth="12" iconSpacing="4" padding="6,6,6,6" strokeColor="#ffffff" strokeWidth="0" strokeType="square" >
+			<transition/>
+			<scrubBar backgroundColor="#aaaaaa" height="6" loadingColor="#666666" progressColor="#000000" />
+			<shadow/>
+		</controller>
+		<mark>
+			<shadow/>
+		</mark>
+		<progress backgroundAlpha="1" backgroundColor="#ffffff" height="2" padding="2,2,2,2" progressColor="#000000" strokeColor="#ffffff" strokeType="square" type="bar" width="40" >
+			<shadow/>
+		</progress>
+		<transition easing="easeOut" kenBurnsMode="randomZoomOut" size="0.25" strength="0.15" time="1.25" type="waterDrop" />
+		<shadow/>
+		<sound/>
+		<thumbnailNavigation>
+			<items>
+				<shadow/>
+				<transition>
+					<shadow/>
+				</transition>
+			</items>
+			<shadow/>
+		</thumbnailNavigation>
+	</configuration>
+	<contents>
+		 <!-- ... -->
+	</contents>
+</album>
