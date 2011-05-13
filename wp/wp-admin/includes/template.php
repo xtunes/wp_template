@@ -1786,7 +1786,7 @@ function screen_meta($screen) {
 	</div>
 
 <div id="screen-meta-links">
-<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle" style="display:none;">
 <a href="#contextual-help" id="contextual-help-link" class="show-settings"><?php _e('Help') ?></a>
 </div>
 <?php if ( $show_screen ) { ?>

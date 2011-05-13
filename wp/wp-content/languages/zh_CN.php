@@ -21,7 +21,6 @@ function zh_cn_language_pack_backend_create_menu() {
 
 function zh_cn_language_pack_contextual_help() {
     add_contextual_help('settings_page_zh-cn-language-pack-settings',
-        '<p>在这里对 WordPress 官方中文语言包进行自定义。</p>' .
         '<p><strong>后台样式优化</strong> - 开启后可以令后台显示中文更加美观，它不会影响到您站点前台的样式。默认开启。</p>' .
         '<p><strong>中文视频网站视频自动嵌入</strong> - 允许您以在文章添加视频播放页面网址的方式，简单地插入优酷网、56.com 和土豆网视频。默认开启。<br />当前支持的站点、样例 URL 和参数如下：</p>' .
         '<ul>' .
@@ -29,16 +28,13 @@ function zh_cn_language_pack_contextual_help() {
         '   <li><em>56.com</em> - 如 <code>http://www.56.com/u21/v_NTgxMzE4NDI.html</code> - 宽 480px，高 395px</li>' .
         '   <li><em>土豆网</em> - 如 <code>http://www.tudou.com/programs/view/o9tsm_CL5As/</code> - 宽 480px，高 400px</li>' .
         '</ul>' .
-        '<p>您只需在文章另起一段，写入形如上述的播放页面链接。在文章显示时，WordPress 将自动替换这些链接为相应视频播放器。需要您特别注意的是，请不要为 URL 设置超链接，且该 URL 本身必须独立成段。' .
-        '<p><strong>更多信息：</strong></p>' .
-        '<p>若您发现任何文字上的错误，或有任何意见、建议，欢迎访问下列页面进行回报 ——<br />' .
-        '<a href="http://cn.wordpress.org/contact/" target="_blank">WordPress China “联系”页面</a> - 不过，需要您注意的是，并不是所有问题都会被回答。</p>'
+        '<p>您只需在文章另起一段，写入形如上述的播放页面链接。在文章显示时将自动替换这些链接为相应视频播放器。需要您特别注意的是，请不要为 URL 设置超链接，且该 URL 本身必须独立成段。' 
     );
 }
 
 function zh_cn_language_pack_settings_page() {
     ?><div class="wrap">
-<h2>中文本地化选项</h2>
+<h2>本地化选项</h2>
 
 <form method="post" action="options.php">
     <h3 class="title">调整设置</h3>
@@ -60,9 +56,6 @@ function zh_cn_language_pack_settings_page() {
             <td>
                 <label for="zh_cn_language_pack_enable_chinese_fake_oembed"><input type="checkbox" id="zh_cn_language_pack_enable_chinese_fake_oembed" name="zh_cn_language_pack_enable_chinese_fake_oembed" value="1"<?php checked('1', get_option('zh_cn_language_pack_enable_chinese_fake_oembed')); ?> /> 自动从 URL 嵌入中国视频网站上的视频。</label>
                 <br />
-                <span class="description">
-                    WordPress 核心程序的 oEmbed 功能无法嵌入中国视频网站的视频，因为中国视频网站大多不提供 oEmbed 服务。本选项启用后，程序将采用固定方式，在显示文章时自动将 URL 替换成相应的 Flash 视频嵌入代码。用法、支持的站点、样例 URL 格式及其嵌入大小，请见页面上方“帮助”选项卡。（试验功能。需要 <code>preg_replace()</code> 函数。在视频网站做出调整时可能出现问题。功能按照视频网站提供的嵌入代码编写，可能破坏您页面的 HTML / XHTML 标准性，可能破坏页面宽度。请慎用。）
-                </span>
             </td>
         </tr>
     </table>
@@ -72,8 +65,6 @@ function zh_cn_language_pack_settings_page() {
     </p>
 </form>
 
-<h3 class="title">翻译纠错、使用中文提交 bug、简单免费技术支持</h3>
-<p>请点击页面上方的“帮助”以获取联系信息。</p>
 
 </div><?php
 }
